@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-11-24 10:58:18 --> Severity: error --> Exception: Cannot delete or update a parent row: a foreign key constraint fails (`superpass`.`dsp_coupon_usage`, CONSTRAINT `fk_usage_store` FOREIGN KEY (`store_no`) REFERENCES `dsp_store` (`no`)) /home2/superpass/html/_system/database/drivers/mysqli/mysqli_driver.php 305
+ERROR - 2025-11-24 10:58:23 --> Severity: error --> Exception: Cannot delete or update a parent row: a foreign key constraint fails (`superpass`.`dsp_coupon_usage`, CONSTRAINT `fk_usage_store` FOREIGN KEY (`store_no`) REFERENCES `dsp_store` (`no`)) /home2/superpass/html/_system/database/drivers/mysqli/mysqli_driver.php 305
+ERROR - 2025-11-24 10:58:37 --> Severity: error --> Exception: Cannot delete or update a parent row: a foreign key constraint fails (`superpass`.`dsp_coupon_usage`, CONSTRAINT `fk_usage_store` FOREIGN KEY (`store_no`) REFERENCES `dsp_store` (`no`)) /home2/superpass/html/_system/database/drivers/mysqli/mysqli_driver.php 305

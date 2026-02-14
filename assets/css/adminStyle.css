@@ -1,0 +1,149 @@
+/******************************************************************************** 폰트 설정 */
+.poppins-thin {
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.poppins-extralight {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.poppins-light {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.poppins-medium {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.poppins-bold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.poppins-extrabold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.poppins-black {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.poppins-thin-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.poppins-extralight-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.poppins-light-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.poppins-regular-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.poppins-medium-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.poppins-semibold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.poppins-bold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.poppins-extrabold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.poppins-black-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Glyphicons Halflings';    font-style: normal;    font-weight: 700;
+	src: url('/assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('/assets/fonts/glyphicons-halflings-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+	font-weight:200;
+	font-family:"Poppins","NanumSquareNeo",sans-serif; font-kerning:auto;
+}
+body {
+	background-color:white;
+}
+.form-group.row {
+	margin:10px 0px;
+}
+
+.paginate_button  {
+	padding:5px 10px;
+	background-color:#2C645B
+	margin:0px 5px;
+	border-radius:5px;
+}
+
+.ulUploadFileExplain, .ulImageExplain  {
+	padding:0px;
+}
+.ulUploadFileExplain  li, .ulImageExplain  li {
+	list-style:none;
+}
+.ulUploadFileExplain  li img, .ulImageExplain  li img {
+	max-width:100%;
+}
+
+.text-wrap {
+  overflow: hidden; /* 넘치는 텍스트 숨기기 */
+  white-space: nowrap; /* 줄바꿈 방지 */
+  text-overflow: ellipsis; /* 넘치는 부분에 ... 표시 */
+}
