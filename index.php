@@ -60,7 +60,7 @@
  * 설치 이후에는 이 값을 변경하셔도 상관없습니다.
 */
 
-	$env = $_SERVER['REMOTE_ADDR']=='192.168.0.1' ? 'development' : 'production';
+	$env = $_SERVER['REMOTE_ADDR']=='121.165.106.238' ? 'development' : 'production';
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : $env);
 
 /*

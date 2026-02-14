@@ -131,7 +131,10 @@
 		<span class="fw-bold small">Admin Settings</span>
 		<button type="button" class="btn-close btn-sm" id="btnAdminClose" aria-label="Close"></button>
 	</div>
-	<div class="d-flex gap-2">
+	<div class="d-flex flex-wrap gap-2 align-items-center">
+		<button type="button" id="btnThemeToggle" class="btn btn-sm btn-outline-secondary" title="다크/라이트 모드 전환" aria-label="테마 전환">
+			<i class="fa fa-moon-o" id="themeIcon"></i> <span id="themeLabel">다크</span>
+		</button>
 		<a href="/admin/" target="_blank" class="btn btn-sm btn-dark">관리자 링크</a>
 		<a href="/?langSet=kr" class="btn btn-sm btn-outline-dark">KO</a>
 		<a href="/?langSet=en" class="btn btn-sm btn-outline-dark">EN</a>
@@ -141,6 +144,24 @@
 
 <script>
 $(function(){
+	function applyThemeLabel(){
+		var t = document.documentElement.getAttribute('data-theme') || 'light';
+		if (t === 'dark') {
+			$('#themeIcon').removeClass('fa-sun-o').addClass('fa-moon-o');
+			$('#themeLabel').text('라이트'); /* 클릭 시 라이트로 전환 */
+		} else {
+			$('#themeIcon').removeClass('fa-moon-o').addClass('fa-sun-o');
+			$('#themeLabel').text('다크'); /* 클릭 시 다크로 전환 */
+		}
+	}
+	applyThemeLabel();
+	$('#btnThemeToggle').on('click', function(){
+		var el = document.documentElement;
+		var next = el.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+		el.setAttribute('data-theme', next);
+		localStorage.setItem('superpass-theme', next);
+		applyThemeLabel();
+	});
 	$('#btnAdminToggle').on('click', function(){
 		$(this).fadeOut(200);
 		$('#adminOverlayGroup').fadeIn(200).css('display', 'flex');

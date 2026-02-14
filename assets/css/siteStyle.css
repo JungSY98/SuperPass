@@ -1327,3 +1327,163 @@ li.btnMobileSNS img {
 		padding: 6px 10px;
 	}
 }
+
+/********************************************************************************
+ * 다크 모드 (data-theme="dark" — 브라우저 설정 또는 관리자 메뉴에서 전환)
+ ********************************************************************************/
+[data-theme="dark"] {
+	--paper: #1a1d21;
+	--page: #121418;
+	--shadow: #2d3238;
+	--text: #e2e6ea;
+	--track: #3d444d;
+}
+[data-theme="dark"] body {
+	background: #0f1114;
+	color: #e2e6ea;
+}
+[data-theme="dark"] a {
+	color: #7dd3fc;
+}
+[data-theme="dark"] a:hover {
+	color: #bae6fd;
+}
+[data-theme="dark"] header,
+[data-theme="dark"] .navbar-main.bg-faded,
+[data-theme="dark"] #navSite {
+	background: #1a1d21 !important;
+	border-bottom: 1px solid #2d3238;
+}
+[data-theme="dark"] .pcCatSection.bg-white {
+	background: #1a1d21 !important;
+	border-bottom: 1px solid #2d3238;
+}
+[data-theme="dark"] #pcMenuStore .offcanvas-header {
+	background: #0d4d42 !important;
+	border-bottom-color: #1a6b5c;
+}
+[data-theme="dark"] .offcanvas-left {
+	border-right-color: #2d3238;
+}
+[data-theme="dark"] .list-group-item,
+[data-theme="dark"] #pcResultList .list-group-item {
+	background: #1a1d21 !important;
+	border-color: #2d3238;
+	color: #e2e6ea;
+}
+[data-theme="dark"] .place-card {
+	background: #1a1d21 !important;
+}
+[data-theme="dark"] .place-thumb {
+	background: #252a30;
+	border-color: #2d3238;
+}
+[data-theme="dark"] .place-title,
+[data-theme="dark"] .place-meta {
+	color: #e2e6ea;
+}
+[data-theme="dark"] #searchInput,
+[data-theme="dark"] #pcSearchInput {
+	background: #252a30 !important;
+	border-color: var(--key-green) !important;
+	color: #e2e6ea;
+}
+[data-theme="dark"] #searchInput::placeholder,
+[data-theme="dark"] #pcSearchInput::placeholder {
+	color: #8b9298;
+}
+[data-theme="dark"] #map {
+	background: #121418;
+}
+[data-theme="dark"] .mochip {
+	background: #252a30;
+	border-color: var(--key-green);
+	color: #e2e6ea;
+}
+[data-theme="dark"] .mochip__icon {
+	background: #1a1d21;
+}
+[data-theme="dark"] #pcPlaceDetail.offcanvas,
+[data-theme="dark"] #pcStampDetail.offcanvas {
+	background: #1a1d21;
+}
+[data-theme="dark"] #pcPlaceDetail .offcanvas-header,
+[data-theme="dark"] #pcStampDetail .offcanvas-header {
+	background: #1a1d21;
+	border-bottom-color: #2d3238;
+}
+[data-theme="dark"] #pcPlaceDetail .offcanvas-title,
+[data-theme="dark"] #pcPlaceDetail .offcanvas-body,
+[data-theme="dark"] #pcPlaceDetail .text-body,
+[data-theme="dark"] #pcPlaceDetail .fw-bold {
+	color: #e2e6ea;
+}
+[data-theme="dark"] .listWrapPC {
+	background: #121418;
+}
+[data-theme="dark"] #pcListToolbar .ttl {
+	color: #e2e6ea;
+}
+[data-theme="dark"] .place-toolbar {
+	border-color: #2d3238;
+	color: #e2e6ea;
+}
+[data-theme="dark"] #resultPanel .offcanvas,
+[data-theme="dark"] #mPlaceSheet.offcanvas,
+[data-theme="dark"] #mPlaceSheet .offcanvas-header,
+[data-theme="dark"] #mPlaceSheet .offcanvas-body {
+	background: #1a1d21;
+	border-color: #2d3238;
+	color: #e2e6ea;
+}
+[data-theme="dark"] .coupon-square {
+	background: #252a30;
+	border-color: #2d3238;
+}
+[data-theme="dark"] .mobile-bottom-nav {
+	background: #1a1d21;
+	border-top: 1px solid #2d3238;
+}
+[data-theme="dark"] .mb-nav-item {
+	color: #8b9298;
+}
+[data-theme="dark"] .mb-nav-item.active {
+	color: var(--key-green);
+}
+[data-theme="dark"] .pc-nav-item {
+	color: #8b9298;
+}
+[data-theme="dark"] .pc-nav-item.active {
+	color: #fff;
+}
+[data-theme="dark"] .admin-overlay-group {
+	background: rgba(26, 29, 33, 0.95);
+	border-color: #2d3238;
+}
+[data-theme="dark"] .admin-overlay-group .fw-bold {
+	color: #e2e6ea;
+}
+[data-theme="dark"] .btn-close {
+	filter: invert(1);
+}
+[data-theme="dark"] .form-control {
+	background: #252a30;
+	border-color: #2d3238;
+	color: #e2e6ea;
+}
+[data-theme="dark"] hr {
+	border-color: #2d3238;
+}
+[data-theme="dark"] .border-bottom {
+	border-color: #2d3238 !important;
+}
+[data-theme="dark"] .sheet-grip {
+	background: #3d444d;
+}
+[data-theme="dark"] #splashOverlay {
+	background: #0b1f1f;
+}
+[data-theme="dark"] .divMainContents,
+[data-theme="dark"] .divSubContents {
+	background: #0f1114;
+}
